@@ -1,0 +1,36 @@
+body{
+    /* background-image: url("/homework/wk4-homework/unit-4-game/assets/images/background/brickwall.png"); FIGURE THIS OUT LATER */
+    background-color: brown;
+}
+
+
+.mansion-title{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 75px;
+    color: brown;
+}
+
+.disclose-info{
+    font-size: 10px;
+}
+
+.display-price{
+    display: inline;
+}
+
+.instructions{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+}
+
+.card-title{
+    font-family: 'Crimson Text', serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card-text{
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+}
