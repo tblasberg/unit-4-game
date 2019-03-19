@@ -9,10 +9,8 @@ $(document).ready(function () {
     var totalAmount = 0;
     var wins = 0;
     var losses = 0;
-    var imgarray = ["house1.png", "house2.png", "house3.png", "house4.png", ]
-
-    //look up on how to change the image src attribute for a file using jquery
-    // imgarray.attr(src of the image)
+    var imgarray = ["house1.png", "house2.png", "house3.png", "house4.png", "house5.png", "house6.png"];
+    var img = imgarray[Math.floor(Math.random() * imgarray.length)];
 
 
 
@@ -150,6 +148,11 @@ $(document).ready(function () {
 
 
     function reset() {
+    //look up on how to change the image src attribute for a file using jquery
+    // imgarray.attr(src of the image)
+        img = imgarray[Math.floor(Math.random() * imgarray.length)];
+        $("#houses").attr("src", "./assets/images/houses/" + img);
+
         price = Math.floor(Math.random() * (120 - 19 + 1) + 19);
         price = parseInt(price);
         console.log("Reseting price " + price);
