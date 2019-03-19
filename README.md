@@ -1,6 +1,7 @@
-# Buy your mansion today!
+<H1> Buy your mansion today! </H1>
 
-This is a game to test your financial skills!
+<h4> This is a game to test your financial skills!</h4>
 
-The value of the mansion will be shown by clicking on the price button. 
-Gather all your financial resources and buy your mansion today!
+<p>The **mansion of your dreams** will be featured on the top of the page.
+For the game to start, click on the price button and the value in millions will be displayed by the button. 
+Gather all your savings and financial resources to buy your mansion, however, there are _other buyers_ trying to get your dream home! Be aware and do your best to match exaclty the price!
